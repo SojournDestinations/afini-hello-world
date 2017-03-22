@@ -25,4 +25,3 @@ if [ "$GIT_SSH_KEY" != "" ]; then
           " StrictHostKeyChecking no"\
           > ~/.ssh/config
 fi
-Contact GitHub API Training Shop Blog About
