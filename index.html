@@ -8,7 +8,8 @@
   <body>
     <script>
       $(document).ready(function(){
-        $.get('http://127.0.0.1:3000/hello', function (data) {
+        $.get('http://ec2-52-34-178-9.us-west-2.compute.amazonaws.com:3000/hello', function (data) {
+          console.log('got a response back: ' + data)
           $('#heading').text(data.text)
         })
       });

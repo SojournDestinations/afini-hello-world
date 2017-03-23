@@ -19,6 +19,7 @@
   "homepage": "https://github.com/SojournDestinations/afini-hello-world#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "request": "^2.81.0"
   }
 }
